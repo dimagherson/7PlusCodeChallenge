@@ -28,7 +28,7 @@ namespace _7PlusCodeChallenge
 
             if (user != null)
             {
-                Console.WriteLine(user.FirstName);
+                Console.WriteLine($"{user.LastName}, {user.FirstName}");
                 Console.WriteLine();
             }
 

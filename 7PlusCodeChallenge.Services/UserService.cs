@@ -28,7 +28,8 @@ namespace _7PlusCodeChallenge.Services
 
             var model = new UserModel
             {
-                FirstName = user.First
+                FirstName = user.First,
+                LastName = user.Last
             };
 
             return model;
